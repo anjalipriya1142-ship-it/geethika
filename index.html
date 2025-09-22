@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive 3D Anatomical Arm Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#0D1B2A',
+              'brand-secondary': '#1B263B',
+              'brand-accent': '#415A77',
+              'brand-light': '#778DA9',
+              'brand-text': '#E0E1DD',
+              'brand-blue': '#3A86FF',
+              'brand-red': '#FF495C',
+              'brand-yellow': '#FFD166',
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.3.0",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.6",
+    "three": "https://aistudiocdn.com/three@^0.180.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-primary text-brand-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

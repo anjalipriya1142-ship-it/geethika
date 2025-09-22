@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Interactive 3D Anatomical Arm Viewer",
+  "description": "A hyper-realistic, medically accurate 3D anatomical model of the human arm for AR/VR training. Features detailed visualization of skin, muscles, vascular, and nervous systems, including a surgically implanted chemoport. Allows for interactive exploration with layered viewing, zoom, and rotation.",
+  "requestFramePermissions": []
+}
